@@ -26,6 +26,8 @@ public class InventoryManager : MonoBehaviour
                 weapons[i] = item;
                 weaponsNames[i].text = item.itemName;
                 weaponsSprites[i].sprite = item.itemSprite;
+
+                return;
             }
         }
     }
