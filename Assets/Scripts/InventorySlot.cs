@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour
 {
-    public ScriptableItem slotItem:
+    public ScriptableItem slotItem;
     public int slotNumber;
 
     public GameObject inspectionWindow;
@@ -18,11 +18,11 @@ public class InventorySlot : MonoBehaviour
 
     public void InspectItem()
     {
-        if(slotItem =! null)
+        if(slotItem != null)
         {
             inspectionImage.sprite = slotItem.itemSprite;
             inspectionName.text = slotItem.itemName;
-            inspectionPrice.text = slotItem.itemPrice;
+            inspectionPrice.text = slotItem.itemPrice.ToString();
             inspectionDescription.text = slotItem.itemDescription;
 
             inspectionWindow.SetActive(true);

@@ -10,6 +10,7 @@ public class InventoryManager : MonoBehaviour
     public ScriptableItem[] weapons;
     public Text[] weaponsNames;
     public Image[] weaponsSprites;
+    public InventorySlot[] weaponSlot;
 
     // Start is called before the first frame update
     void Awake()
@@ -26,6 +27,9 @@ public class InventoryManager : MonoBehaviour
                 weapons[i] = item;
                 weaponsNames[i].text = item.itemName;
                 weaponsSprites[i].sprite = item.itemSprite;
+
+                weaponSlot[i].slotItem = item;
+                weaponSlot[i].slotnumber = i;
 
                 return;
             }
