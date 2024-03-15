@@ -28,4 +28,16 @@ public class InventorySlot : MonoBehaviour
             inspectionWindow.SetActive(true);
         }
     }
+
+    public void RemoveItem()
+    {
+        if(InventoryManager.instance.weapons[slotNumber] != null)
+        {
+            InventoryManager.instance.weapons[slotNumber] = null;
+            InventoryManager.instance.weaponsNames[slotNumber].text = "Empty";
+            InventoryManager.instance.weaponsSprites[slotNumber].sprite = null;
+        }
+
+        slotItem = null;
+    }
 }
