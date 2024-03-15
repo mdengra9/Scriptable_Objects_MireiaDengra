@@ -551,6 +551,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1715145323}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 638766249}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 2097719532}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1807949781}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 518352759}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 250292992}
     - target: {fileID: 6581373879845047790, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
       propertyPath: m_Name
       value: ItemSlot (7)
@@ -560,6 +584,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+--- !u!114 &324208785 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+  m_PrefabInstance: {fileID: 324208784}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf4cbfc7df86624bad5de6ed646af6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &333907772 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4997313671552579181, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
@@ -670,6 +705,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1715145323}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 638766249}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 2097719532}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1807949781}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 518352759}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 250292992}
     - target: {fileID: 6581373879845047790, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
       propertyPath: m_Name
       value: ItemSlot (5)
@@ -679,6 +738,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+--- !u!114 &449648555 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+  m_PrefabInstance: {fileID: 449648554}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf4cbfc7df86624bad5de6ed646af6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &518352759
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,6 +981,16 @@ MonoBehaviour:
   - {fileID: 16095368}
   - {fileID: 1076910771}
   - {fileID: 1183208240}
+  weaponSlot:
+  - {fileID: 5677127287330946920}
+  - {fileID: 607604621}
+  - {fileID: 1454731960}
+  - {fileID: 2014077429}
+  - {fileID: 1930485903}
+  - {fileID: 449648555}
+  - {fileID: 1083036506}
+  - {fileID: 324208785}
+  - {fileID: 1081423918}
 --- !u!4 &566789706
 Transform:
   m_ObjectHideFlags: 0
@@ -1014,6 +1094,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1715145323}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 638766249}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 2097719532}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1807949781}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 518352759}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 250292992}
     - target: {fileID: 6581373879845047790, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
       propertyPath: m_Name
       value: ItemSlot (1)
@@ -1023,6 +1127,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+--- !u!114 &607604621 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+  m_PrefabInstance: {fileID: 607604620}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf4cbfc7df86624bad5de6ed646af6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &629822027 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4997313671552579181, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
@@ -1425,6 +1540,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1715145323}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 638766249}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 2097719532}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1807949781}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 518352759}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 250292992}
     - target: {fileID: 6581373879845047790, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
       propertyPath: m_Name
       value: ItemSlot (8)
@@ -1434,6 +1573,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+--- !u!114 &1081423918 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+  m_PrefabInstance: {fileID: 1081423917}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf4cbfc7df86624bad5de6ed646af6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1083036505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1522,6 +1672,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1715145323}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 638766249}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 2097719532}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1807949781}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 518352759}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 250292992}
     - target: {fileID: 6581373879845047790, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
       propertyPath: m_Name
       value: ItemSlot (6)
@@ -1531,6 +1705,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+--- !u!114 &1083036506 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+  m_PrefabInstance: {fileID: 1083036505}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf4cbfc7df86624bad5de6ed646af6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1121101811 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 648249485991837972, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
@@ -1961,6 +2146,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1715145323}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 638766249}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 2097719532}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1807949781}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 518352759}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 250292992}
     - target: {fileID: 6581373879845047790, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
       propertyPath: m_Name
       value: ItemSlot (2)
@@ -1970,6 +2179,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+--- !u!114 &1454731960 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+  m_PrefabInstance: {fileID: 1454731959}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf4cbfc7df86624bad5de6ed646af6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1475575781
 GameObject:
   m_ObjectHideFlags: 0
@@ -2052,7 +2272,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1475575784}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1475575781}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1475575784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2596,6 +2828,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1715145323}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 638766249}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 2097719532}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1807949781}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 518352759}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 250292992}
     - target: {fileID: 6581373879845047790, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
       propertyPath: m_Name
       value: ItemSlot (4)
@@ -2605,6 +2861,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+--- !u!114 &1930485903 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+  m_PrefabInstance: {fileID: 1930485902}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf4cbfc7df86624bad5de6ed646af6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1967383179 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 648249485991837972, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
@@ -2704,6 +2971,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1715145323}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 638766249}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 2097719532}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1807949781}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 518352759}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 250292992}
     - target: {fileID: 6581373879845047790, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
       propertyPath: m_Name
       value: ItemSlot (3)
@@ -2713,6 +3004,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+--- !u!114 &2014077429 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+  m_PrefabInstance: {fileID: 2014077428}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf4cbfc7df86624bad5de6ed646af6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2023222537
 GameObject:
   m_ObjectHideFlags: 0
@@ -3048,6 +3350,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: deleteButton
+      value: 
+      objectReference: {fileID: 1715145323}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionName
+      value: 
+      objectReference: {fileID: 638766249}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionImage
+      value: 
+      objectReference: {fileID: 2097719532}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionPrice
+      value: 
+      objectReference: {fileID: 1807949781}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionWindow
+      value: 
+      objectReference: {fileID: 518352759}
+    - target: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+      propertyPath: inspectionDescription
+      value: 
+      objectReference: {fileID: 250292992}
     - target: {fileID: 6581373879845047790, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
       propertyPath: m_Name
       value: ItemSlot
@@ -3057,6 +3383,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+--- !u!114 &5677127287330946920 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6402839424608723319, guid: 13359a249bff3e24c9c714bc2146ff4e, type: 3}
+  m_PrefabInstance: {fileID: 5677127287330946919}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf4cbfc7df86624bad5de6ed646af6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
