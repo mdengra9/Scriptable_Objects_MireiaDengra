@@ -27,6 +27,8 @@ public class InventorySlot : MonoBehaviour
 
             inspectionWindow.SetActive(true);
         }
+
+        deleteButton.onClick.AddListener(RemoveItem);
     }
 
     public void RemoveItem()
@@ -39,5 +41,8 @@ public class InventorySlot : MonoBehaviour
         }
 
         slotItem = null;
+
+        deleteButton.onClick.RemoveListener(RemoveItem);
+        inspectionWindow.SetActive(false);
     }
 }
